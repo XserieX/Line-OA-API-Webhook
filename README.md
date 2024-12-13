@@ -26,6 +26,11 @@ Use Pip:
 pip install -r requirements.txt --upgrade pip
 ```
 
+## Add Channel access token
+- nano .env
+- LINE_CHANNEL_ACCESS_TOKEN={Channel access token}
+
+
 ## Test
 Run Server Test with hypercorn [-b "IP:PORT"]
 
